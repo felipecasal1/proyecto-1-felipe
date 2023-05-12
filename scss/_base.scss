@@ -1,0 +1,25 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Oswald', sans-serif;
+}
+
+$color-principal:#3b0032;
+$color-secundario:#0e0b29;
+$color-terciario:#7d2948;
+
+h1 {
+    background-color: $color-terciario;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+nav {
+    background-color: $color-principal
+   
+}
+
+body{
+   background-color: $color-secundario;
+}
