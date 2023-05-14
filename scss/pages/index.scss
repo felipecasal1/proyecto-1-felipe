@@ -5,35 +5,58 @@
 }
 .tarjetas-compras{
     margin: 20px;
-background-color: $color-principal;
-height: 300px;
-width: 50%;
-text-align: center;
+    background-color: $color-principal;
+    height: 300px;
+    width: 50%;
+    text-align: center;
 }
 
 
 .img-index{
     height: 50%;
     width: 90%;
- 
+    
 }
 .btn{
     font-size: 1.4rem;
-   margin-top: 20px;
-   background-color: $color-terciario;
+    margin-top: 20px;
+    background-color: $color-terciario;
     border: solid;
-
+    
 }
 .btn:hover{
     background-color: $color-principal;
-   
+    
 }
+
+.lista-nav:hover{
+    color: $color-terciario;
+}
+
+
+
+
+
+// MEDIA responsive
+
+
 @media(min-width:768px){
 .text-tarjetas{
-font-size: 1.7rem;
-
-
+    font-size: 1.7rem;
+}
+.tarjetas-compras{
+    width: 400px;
 }
 }
-
-
+@media(min-width:1300px){
+.img-index{
+    width: 500px;
+   
+}
+.text-tarjetas{
+    font-size: 2rem;
+}
+.tarjetas-compras{
+    width: 600px;
+}
+ }

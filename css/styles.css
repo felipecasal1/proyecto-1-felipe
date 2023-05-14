@@ -29,7 +29,7 @@ body {
 }
 
 .lista-nav {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   list-style: none;
 }
 @media (min-width: 768px) {
@@ -68,9 +68,27 @@ body {
   background-color: #3b0032;
 }
 
+.lista-nav:hover {
+  color: #7d2948;
+}
+
 @media (min-width: 768px) {
   .text-tarjetas {
     font-size: 1.7rem;
+  }
+  .tarjetas-compras {
+    width: 400px;
+  }
+}
+@media (min-width: 1300px) {
+  .img-index {
+    width: 500px;
+  }
+  .text-tarjetas {
+    font-size: 2rem;
+  }
+  .tarjetas-compras {
+    width: 600px;
   }
 }
 .tarjetas {
@@ -103,9 +121,27 @@ body {
   background-color: #3b0032;
 }
 
+.lista-nav:hover {
+  color: #7d2948;
+}
+
 @media (min-width: 768px) {
   .text-tarjetas {
     font-size: 1.7rem;
+  }
+  .tarjetas-compras {
+    width: 400px;
+  }
+}
+@media (min-width: 1300px) {
+  .img-index {
+    width: 500px;
+  }
+  .text-tarjetas {
+    font-size: 2rem;
+  }
+  .tarjetas-compras {
+    width: 600px;
   }
 }
 .tarjetas {
@@ -138,9 +174,27 @@ body {
   background-color: #3b0032;
 }
 
+.lista-nav:hover {
+  color: #7d2948;
+}
+
 @media (min-width: 768px) {
   .text-tarjetas {
     font-size: 1.7rem;
+  }
+  .tarjetas-compras {
+    width: 400px;
+  }
+}
+@media (min-width: 1300px) {
+  .img-index {
+    width: 500px;
+  }
+  .text-tarjetas {
+    font-size: 2rem;
+  }
+  .tarjetas-compras {
+    width: 600px;
   }
 }
 .tarjetas {
@@ -173,9 +227,27 @@ body {
   background-color: #3b0032;
 }
 
+.lista-nav:hover {
+  color: #7d2948;
+}
+
 @media (min-width: 768px) {
   .text-tarjetas {
     font-size: 1.7rem;
+  }
+  .tarjetas-compras {
+    width: 400px;
+  }
+}
+@media (min-width: 1300px) {
+  .img-index {
+    width: 500px;
+  }
+  .text-tarjetas {
+    font-size: 2rem;
+  }
+  .tarjetas-compras {
+    width: 600px;
   }
 }
 .tarjetas {
@@ -208,10 +280,28 @@ body {
   background-color: #3b0032;
 }
 
+.lista-nav:hover {
+  color: #7d2948;
+}
+
 @media (min-width: 768px) {
   .text-tarjetas {
     font-size: 1.7rem;
   }
+  .tarjetas-compras {
+    width: 400px;
+  }
+}
+@media (min-width: 1300px) {
+  .img-index {
+    width: 500px;
+  }
+  .text-tarjetas {
+    font-size: 2rem;
+  }
+  .tarjetas-compras {
+    width: 600px;
+  }
 }
 
-
+/*# sourceMappingURL=styles.css.map */
